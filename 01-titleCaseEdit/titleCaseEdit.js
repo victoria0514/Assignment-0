@@ -1,5 +1,7 @@
-function titleCaseEdit(title) {
+function titleCaseEdit(title) 
+{
   // Insert code here;
+  
 }
 
 // Do not edit this line;
