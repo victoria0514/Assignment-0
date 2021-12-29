@@ -7,12 +7,14 @@ function isPalindrome(word)
   {
     stack.push(word[i]);
   }
+  
   for (let j = 0; j < word.length; j++) 
   {
-    if (word[j] != stack.pop()) {
+    if (word[j] != stack.pop()) 
+    {
 
       return false;
-      
+
     }
   }
 
